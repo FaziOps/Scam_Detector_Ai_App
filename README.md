@@ -19,18 +19,17 @@ Verify Flutter is installed: `flutter doctor` — fix anything it flags before c
 ## Step 1 — Get your API credentials
 
 ### A. Anthropic API Key
-1. Go to https://console.anthropic.com/settings/keys
+1. Go to Anthropic API Key
 2. Create Key → copy it (starts with `sk-ant-`)
 
 ### B. Google Cloud API Key
-1. Go to https://console.cloud.google.com
+1. Go to Google Cloud API Key
 2. APIs & Services → Library → enable **Cloud Vision API** and **Safe Browsing API**
 3. APIs & Services → Credentials → Create Credentials → API Key → copy it
 
 ### C. MongoDB Atlas (free, no local install)
-1. https://www.mongodb.com/atlas → free account → free M0 cluster
-2. Network Access → Add IP → Allow from Anywhere (0.0.0.0/0) for dev
-3. Connect → Drivers → copy the connection string
+1. Network Access → Add IP → Allow from Anywhere (0.0.0.0/0) for dev
+2. Connect → Drivers → copy the connection string
    Format: `mongodb+srv://user:pass@cluster0.xxxxx.mongodb.net/`
 
 ---
