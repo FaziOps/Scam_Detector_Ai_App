@@ -1,6 +1,7 @@
 [README.md](https://github.com/user-attachments/files/29139789/README.md)
 # Scam Detector AI — Flutter Setup Guide
 
+
 ## Prerequisites (install these first)
 
 | Tool | Version | Install |
